@@ -1,3 +1,7 @@
+# goit-react-hw-02
+
+fs60-react-module02-homework (task phonebook)
+
 # React homework template
 
 Этот проект был создан при помощи
