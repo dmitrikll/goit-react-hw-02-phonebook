@@ -23,7 +23,7 @@ export class App extends Component {
       id: nanoid(),
     };
 
-    if (this.state.contacts.find(contact => contact.name === name.value)) {
+    if (this.state.contacts.find(contact => contact.name.toLowerCase() === name.value.toLowerCase())) {
       Report.info(
         'Contact is present in the list!',
         ' ',
