@@ -29,6 +29,7 @@ export class App extends Component {
         ' ',
         'Ok',
       );
+      form.reset();
       return;
     }
 
